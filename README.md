@@ -11,9 +11,9 @@ It can serve as a resume that people can interact with to see examples of the wo
 ### The Portfolio Should Include
 
 * Your full name
-* Your Github username, with a link to your GitHub Repos page e.g. <https://github.com/BurlingtonCodeAcademy>
-* Your public social media accounts, with links, e.g. <https://twitter.com/btvcodeacademy>
-* Your LinkedIn account <https://www.linkedin.com/school/burlington-code-academy/>
+* Your Github username, with a link to your GitHub Repos page.
+* Your public social media accounts, with links.
+* Your LinkedIn account.
 * Your current home city and state. **do not** list your street address or zip code.
 * How to contact you.
   * Consider what information you want to be available when anyone searches for your name.
@@ -21,16 +21,22 @@ It can serve as a resume that people can interact with to see examples of the wo
 
 ## Goals
 
-* Understand and use the following:
+Understand and use the following:
+
+  * React
+  * React Router
   * Whitespace using margin and padding
   * Typography improvements
   * Text spacing
   * Color and contrast
   * Using images
+  
 
 ## Stories
 
-While the specific style choices and functionality are ultimately up to you, the following stories are required.
+These stories are highly customizable. Subpages are described below, but do not feel you need to follow their construction or order specifically. We will be looking for the following _information_ to be present on your portfolio, but you may **present** it however fits your personality. 
+
+The only things **required** are a persistent nav bar/menu and a persistent footer.
 
 ## Home Page
 
@@ -39,9 +45,9 @@ Should have:
 * A profile image of you.
 * A short description of who you are, for example:
 
-> A passionate web developer looking to make a difference in Vermont.
+> A passionate web developer looking to make a difference in the world.
 
-* Links to the following sub-pages, which do not need to exist yet.
+* Links to the following sub-pages.
   * About Me
   * Projects or Portfolio
   * Hobbies and Interests
@@ -96,7 +102,7 @@ Should have:
 
 ## Navigation Bar
 
-This should exist, and better yet *persist* across all other pages of your site.  
+This should *persist* across all other pages of your site.  
 
 * Build a "Nav Bar" using a consistent UI on each page, with links to the various other pages of your portfolio.
 * Style the navbar using Flexbox or CSS Grid.
@@ -111,7 +117,7 @@ This should exist, and better yet *persist* across all other pages of your site.
 
 ## Page Footer
 
-* Add a consistent, and better yet *persistent*, footer to your portfolio page which should include:
+Add a *persistent* footer to your portfolio page which should include:
   * Contact Info
   * CopyWrite Info
   * Social Media Links
@@ -124,80 +130,6 @@ This should exist, and better yet *persist* across all other pages of your site.
 
 ## Icebox
 
-* Make the page mobile responsive
-* Animate elements of your page
-* Crete a sitemap for your site
-* Host your site live on the internet
-
----
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-#### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-#### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-#### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-#### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-#### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-#### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-#### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Make the page mobile responsive. There are various styling libraries you can incorporate that would make this easier.
+* Use a styling OR animation library to bring personality to your page. For this icebox, we will also accept using Sass.
+* Host your site live on the internet. There are a number of options available to do so, but we would suggest checking out: Netlify, Vercel, and GitHub Pages.
